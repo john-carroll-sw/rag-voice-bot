@@ -44,10 +44,11 @@ edit_message = true
 
 [UI]
 # Name of the assistant.
-name = "Assistant"
+name = "Coffee Chat Assistant"
 
 # Description of the assistant. This is used for HTML tags.
 # description = ""
+description = "A virtual assistant to help you place and manage your coffee orders, providing a seamless cafe ordering experience."
 
 # Large size content are by default collapsed for a cleaner ui
 default_collapse_content = true
@@ -56,7 +57,7 @@ default_collapse_content = true
 cot = "full"
 
 # Link to your github repo. This will add a github button in the UI's header.
-# github = ""
+# github = "https://github.com/john-carroll-sw/rag-voice-bot/tree/coffee-chat"
 
 # Specify a CSS file that can be used to customize the user interface.
 # The CSS file can be served from the public directory or via an external link.
