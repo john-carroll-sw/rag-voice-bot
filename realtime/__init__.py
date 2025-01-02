@@ -100,9 +100,9 @@ class RealtimeAPI(RealtimeEventHandler):
     def __init__(self):
         super().__init__()
         self.default_url = 'wss://api.openai.com'
-        self.url = os.environ["AZURE_OPENAI_ENDPOINT"]
+        self.url = os.environ["AZURE_OPENAI_EASTUS2_ENDPOINT"]
         self._is_azure_openai = self.url is not None
-        self.api_key = os.environ.get("AZURE_OPENAI_API_KEY")
+        self.api_key = os.environ.get("AZURE_OPENAI_EASTUS2_API_KEY")
         self.api_version = "2024-10-01-preview"
         self.azure_deployment = os.environ["AZURE_OPENAI_DEPLOYMENT"]
         self.ws = None
